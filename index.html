@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        
+
+
+        <!-- Website details and Info -->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+  
+    <title id="textstyle">Code Quiz</title>
+</head>
+
+<body>
+  <p id="textstyle">
+    Code Quiz
+    <p>
+<br>
+    <p id="textstyle"> Hi I hope you do well with the quiz if you can beat 75% a million Dollars
+        will rain from the computer. Good luck
+    </p>
+
+ <!-- Here lies the body of the game -->
+  
+<div id="container">
+    <div id="start">Start Quiz</div>
+    
+    <div id="quiz" style="display: none;">
+    <div id="question"></div>
+    <div id="choices">
+<div class="choice" id="C" onclick="checkAnswer('C')"></div>
+<div class="choice" id="A" onclick="checkAnswer('A')"></div>
+<div class="choice" id="D" onclick="checkAnswer('D')"></div>
+<div class="choice" id="B" onclick="checkAnswer('B')"></div>
+
+    </div>
+<div id="timer">
+<div id="counter"></div>
+<div id="btimeGauge"></div>
+<div id="timeGauge"></div>
+</div>    
+<div id="progress"></div>    
+    
+    </div>
+    <div id="score" style="display: none;"></div>
+
+
+
+</div>
+
+       
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

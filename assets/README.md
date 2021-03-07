@@ -1,0 +1,1 @@
+This homework was interesting. Everything was based on the past assignments and referenced a lot due to having the if else statement work. 
